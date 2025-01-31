@@ -46,8 +46,6 @@
             width: 100px;
             height: 100px;
             margin: 0 auto;
-            animation: rotate 8s linear infinite;
-            border-radius: 50%;
             border: 2px solid var(--gold);
         }
 
@@ -116,11 +114,6 @@
             transform: translateY(0);
         }
 
-        @keyframes rotate {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
-        }
-
         .visible {
             opacity: 1;
             transform: translateY(0);
@@ -134,7 +127,7 @@
         <h1>S.H Art Gallery</h1>
     </header>
 
-    <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
 
     <section class="gallery">
         <div class="art-card">
